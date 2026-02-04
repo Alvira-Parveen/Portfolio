@@ -5,24 +5,28 @@ body {
   color:#1f2933;
 }
 
+/* HERO SECTION */
 .hero{
-  background:linear-gradient(135deg,#2563eb,#7c3aed);
+  background:linear-gradient(135deg,#6d28d9,#a78bfa);
   color:white;
   text-align:center;
   padding:80px 20px;
 }
 
+/* GENERAL SECTIONS */
 section{
   max-width:1000px;
   margin:auto;
   padding:60px 20px;
 }
 
+/* HEADINGS */
 h2{
-  color:#2563eb;
+  color:#6d28d9;
   margin-bottom:25px;
 }
 
+/* SKILLS GRID */
 .skill-grid{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
@@ -38,23 +42,26 @@ h2{
   box-shadow:0 4px 12px rgba(0,0,0,.1);
 }
 
+/* CARDS */
 .card,.project-card{
   background:white;
   padding:25px;
   margin-bottom:20px;
   border-radius:12px;
   box-shadow:0 6px 15px rgba(0,0,0,.1);
-  transition:.3s;
+  transition:0.3s ease;
 }
 
 .card:hover,.project-card:hover{
-  transform:translateY(-5px);
+  transform:translateY(-6px);
 }
 
+/* CONTACT */
 .contact p{
   font-size:18px;
 }
 
+/* FOOTER */
 footer{
   text-align:center;
   background:#111827;
