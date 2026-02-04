@@ -1,0 +1,63 @@
+body {
+  margin:0;
+  font-family: 'Segoe UI', sans-serif;
+  background:#f5f7fb;
+  color:#1f2933;
+}
+
+.hero{
+  background:linear-gradient(135deg,#2563eb,#7c3aed);
+  color:white;
+  text-align:center;
+  padding:80px 20px;
+}
+
+section{
+  max-width:1000px;
+  margin:auto;
+  padding:60px 20px;
+}
+
+h2{
+  color:#2563eb;
+  margin-bottom:25px;
+}
+
+.skill-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:15px;
+}
+
+.skill-grid div{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  text-align:center;
+  font-weight:600;
+  box-shadow:0 4px 12px rgba(0,0,0,.1);
+}
+
+.card,.project-card{
+  background:white;
+  padding:25px;
+  margin-bottom:20px;
+  border-radius:12px;
+  box-shadow:0 6px 15px rgba(0,0,0,.1);
+  transition:.3s;
+}
+
+.card:hover,.project-card:hover{
+  transform:translateY(-5px);
+}
+
+.contact p{
+  font-size:18px;
+}
+
+footer{
+  text-align:center;
+  background:#111827;
+  color:white;
+  padding:25px;
+}
